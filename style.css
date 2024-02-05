@@ -150,6 +150,10 @@
         margin: 20px 0px;
     }
 
+    .logo-navbar {
+        display: none;
+    }
+
     #hero .left{
         padding-left: 60px;
         align-self: center;
