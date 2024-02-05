@@ -1,0 +1,312 @@
+.navbar img {
+    height: 64px;
+    margin: 20px 0px;
+}
+
+.navbar {
+    background-color: #FFF;
+}
+
+
+#hero{
+    margin-top: 119px;
+    contain: content;
+}
+#hero .left{
+    padding-left: 120px;
+    align-self: center;
+}
+
+#hero .title {
+    font-size: 50px;
+    font-weight: 520;
+    color: #7D7987;
+    margin-bottom: 0px;
+    font-family: Mulish, sans-serif;
+    letter-spacing: 2px;
+}
+
+#hero .sub-title {
+    font-family: Mulish, sans-serif;
+    font-size: 50px;
+    color: #0F7336;
+    font-weight: 900;
+}
+
+#hero .ket {
+    color: #7D7987;
+    width: 63%;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+#hero .btn {
+    background-color: #0F7336;
+    border-radius: 43px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 100;
+    width: 202px;
+}
+
+#aplikasi {
+    padding-bottom: 211px;
+    padding-top: 77px;
+}
+
+.aplikasi .apk {
+    font-size: 36px;
+    font-family: Mulish, sans-serif;
+    width: 65%;
+    font-weight: bold;
+    margin-top: -25px;
+    color: #0F7336;
+}
+
+.aplikasi img {
+    padding-bottom: 8px;
+}
+
+#aplikasi .card {
+    background-color: #D7FBE8;
+}
+
+.text-center-esakip {
+    text-align: center;
+    color: #EFB101;
+    font-size: 7px;
+    font-weight: 700;
+    font-family: Mulish, sans-serif;
+}
+
+.text-center-monev {
+    text-align: center;
+    color: #000;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Mulish, sans-serif;
+}
+
+#aplikasi .title {
+    font-size: 24px;
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+}
+
+#aplikasi .keterangan {
+    font-size: 16px;
+    font-family: Mulish, sans-serif;
+    font-weight: 400;
+}
+
+#footer {
+    background-color: #00923F;
+    color: #FFF;
+}
+
+.footer-ket .title {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Mulish, sans-serif;
+}
+
+.footer-ket .ket {
+    font-size: 18px;
+    font-weight: 200;
+    font-style: Mulish, sans-serif;
+    width: 60%;
+}
+
+.container .title {
+    font-size: 18px;
+    font-family: Mulish, sans-serif;
+
+}
+
+.icon .d-flex img {
+    width: 24px;
+    
+}
+
+.copyright .title {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Mulish, sans-serif;
+}
+
+.youtube {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .navbar img {
+        height: 34px;
+        margin: 20px 0px;
+    }
+
+    #hero .left{
+        padding-left: 60px;
+        align-self: center;
+    }
+    
+    #hero .title {
+        font-size: 25px;
+        font-weight: 260;
+        color: #7D7987;
+        margin-bottom: 0px;
+        font-family: Mulish, sans-serif;
+        letter-spacing: 2px;
+    }
+    
+    #hero .sub-title {
+        font-family: Mulish, sans-serif;
+        font-size: 25px;
+        color: #0F7336;
+        font-weight: 900;
+    }
+    
+    #hero .ket {
+        color: #7D7987;
+        /* width: 89.5%; */
+        margin-bottom: 25px;
+        margin-top: -10px;
+        font-size: 10.5px;
+    }
+    
+    #hero .btn {
+        background-color: #0F7336;
+        border-radius: 43px;
+        color: #FFF;
+        font-size: 8px;
+        font-weight: 100;
+        width: 102px;
+    }    
+
+    #aplikasi {
+        padding-bottom: 71px;
+        padding-top: 77px;
+    }
+        
+    .aplikasi .apk {
+        font-size: 18px;
+        font-family: Mulish, sans-serif;
+        width: 65%;
+        font-weight: bold;
+        margin-top: -25px;
+        margin-bottom: -5px;            
+        color: #0F7336;
+    }    
+    
+    #aplikasi .card {
+        background-color: #D7FBE8;              
+    }        
+    
+    .text-center-esakip {
+        text-align: center;
+        color: #EFB101;
+        font-size: 7px;
+        font-weight: 700;
+        font-family: Mulish, sans-serif;
+    }
+    
+    .text-center-monev {
+        text-align: center;
+        color: #000;
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Mulish, sans-serif;
+    }
+    
+    #aplikasi .title {
+        font-size: 14px;
+        font-family: Mulish, sans-serif;
+        font-weight: bold;
+    }
+    
+    #aplikasi .keterangan {
+        font-size: 12px;
+        font-family: Mulish, sans-serif;
+        font-weight: 400;
+    }
+
+    #footer {
+        background-color: #00923F;
+        color: #FFF;        
+    }
+        
+    .footers {
+        margin-top: -40px;        
+    }
+
+    .footer-ket .title {
+        font-size: 13px;
+        font-weight: bold;
+        font-family: Mulish, sans-serif;
+        display: block;
+    }
+    
+    .footer-ket .ket {
+        font-size: 10px;
+        font-weight: 200;
+        font-style: Mulish, sans-serif;
+        width: 90%;        
+    }
+
+    .footer-logo img {
+        width: 35px;
+    }
+    
+    .container .title {
+        font-size: 13px;
+        font-family: Mulish, sans-serif;
+        /* display: none; */
+    }
+    
+    .copyright .title {
+        font-size: 10px;
+        font-weight: 100;
+        font-family: Mulish, sans-serif;
+        display: block;
+        position: relative;
+    }        
+    
+    .icon .title {
+        display: none;
+    }
+
+    .icon .d-flex {        
+        display: block;
+        margin-top: -15px;
+    }
+    
+    .icon .d-flex span {
+        position: relative;text-align: center;        
+        padding-top: 5px;
+        font-size: 10px;
+        display: none;
+    }
+    
+    .icon .d-flex img {
+        position: relative;
+        display: block;
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        /* background-color: red; */
+        margin-bottom: -40px;
+        margin-top: -10px;
+    }
+
+
+
+    
+}
