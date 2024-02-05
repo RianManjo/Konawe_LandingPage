@@ -9,7 +9,7 @@
 
 
 #hero{
-    margin-top: 119px;
+    margin-top: 160px;
     contain: content;
 }
 #hero .left{
@@ -28,14 +28,14 @@
 
 #hero .sub-title {
     font-family: Mulish, sans-serif;
-    font-size: 50px;
+    font-size: 65px;
     color: #0F7336;
     font-weight: 900;
 }
 
 #hero .ket {
     color: #7D7987;
-    width: 63%;
+    width: 95%;
     margin-bottom: 20px;
     font-size: 21px;
 }
@@ -51,7 +51,7 @@
 
 #aplikasi {
     padding-bottom: 211px;
-    padding-top: 77px;
+    padding-top: 90px;
 }
 
 .aplikasi .apk {
@@ -177,6 +177,8 @@
         margin-bottom: 25px;
         margin-top: -10px;
         font-size: 10.5px;
+        width: 70%;
+
     }
     
     #hero .btn {
@@ -194,14 +196,19 @@
     }
         
     .aplikasi .apk {
-        font-size: 18px;
+        font-size: 22px;
         font-family: Mulish, sans-serif;
-        width: 65%;
+        width: 100%;
         font-weight: bold;
         margin-top: -25px;
         margin-bottom: -5px;            
         color: #0F7336;
+        text-align: center;
     }    
+
+    .aplikasi img {
+        display: none;
+    }
     
     #aplikasi .card {
         background-color: #D7FBE8;              
